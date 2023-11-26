@@ -12,6 +12,8 @@ const result2 = document.querySelector("#result2");
 const img1 = document.querySelector("#img1");
 const img2 = document.querySelector("#img2");
 
+const playerName = prompt("Welcome to Pokemon Game! Enter your name:");
+alert(`Hello, ${playerName}! Let's play Pokemon Game. Press e , f or w buttons on your keyboard`);
 
 function randomELement (){  
     const randomIndex = Math.floor(Math.random() * gameRules.length) 
